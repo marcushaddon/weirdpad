@@ -6,4 +6,6 @@ Python script meant to emulate "[wordpad effect](http://datamoshing.com/tag/word
 2. `virtualenv venvname`
 3. `source venvname/bin/activate`
 4. `pip install requirements.txt`
-5. Glitch everything
+`from weirdpad import WeirdPad
+pad = WeirdPad()
+pad.wordpad_pic('path/to/pic.jpg', 'path/to/output')`
