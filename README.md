@@ -1,9 +1,14 @@
 # weirdpad
 Python script meant to emulate "[wordpad effect](http://datamoshing.com/tag/wordpad-effect/)" on images.
 
-## Instaallation
+## Installation
 1. Clone this repo
 2. `pip install requirements.txt`
+
+.
++--WeirdPad.py
+
+
 3. `from WeirdPad import WeirdPad`
 4. `pad = WeirdPad()`
 5. `pad.in_dir = 'in/'`
