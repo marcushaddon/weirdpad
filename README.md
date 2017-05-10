@@ -3,9 +3,10 @@ Python script meant to emulate "[wordpad effect](http://datamoshing.com/tag/word
 
 ## Instaallation
 1. Clone this repo
-2. `virtualenv venvname`
-3. `source venvname/bin/activate`
-4. `pip install requirements.txt`
-5. `from weirdpad import WeirdPad`
-6. `pad = WeirdPad()`
-7. `pad.wordpad_pic('path/to/pic.jpg', 'path/to/output')`
+2. `pip install requirements.txt`
+3. `from WeirdPad import WeirdPad`
+4. `pad = WeirdPad()`
+5. `pad.in_dir = 'in/'`
+6. `pad.out_dir = 'out/'`
+7. `pad.load_pic('pic.jpg')`
+8. `pad.wordpad_rows(200)`
