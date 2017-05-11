@@ -9,15 +9,7 @@ setup(name='weirdpad',
       license='MIT',
       packages=['weirdpad'],
       install_requires=[
-          'os',
-          'PIL',
-          'random',
-          'appdirs',
-          'olefile',
-          'packaging',
-          'Pillow',
-          'pyparsing',
-          'six'
+          'Pillow'
       ],
       include_package_data=True,
       zip_safe=False)

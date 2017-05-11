@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+weirdpad/__init__.py
+weirdpad/weirdpad.py
+weirdpad.egg-info/PKG-INFO
+weirdpad.egg-info/SOURCES.txt
+weirdpad.egg-info/dependency_links.txt
+weirdpad.egg-info/not-zip-safe
+weirdpad.egg-info/requires.txt
+weirdpad.egg-info/top_level.txt
