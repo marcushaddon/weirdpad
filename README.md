@@ -32,7 +32,7 @@ Insert glitch everytime we find find channel value of 100, resetting at each row
 ```python
 pad.wordpad_rows(100)
 ```
-[Imgur](http://i.imgur.com/iWfQb4B.jpg)
+![A glitched image](http://i.imgur.com/iWfQb4B.jpg)
 
 Insert glitch everytime we find the color specified (I was aiming for a blue here), within the tolerance provided.
 target_color = (20, 20, 200)
