@@ -59,4 +59,4 @@ pad.wordpad_rows_by_color((20, 20, 200), 60)
 
 Result of batch processing jpg sequence (using wordpad_by_color, targeting green, in this instance)
 tree gif
-![A gif of a glitched video](https://media.giphy.com/media/l0IygFSQeFVm9Hgas/giphy.gif)
+[A gif of a glitched video](https://media.giphy.com/media/l0IygFSQeFVm9Hgas/giphy.gif)
