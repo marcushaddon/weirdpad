@@ -1,1 +1,0 @@
-from weirdpad import WeirdPad
