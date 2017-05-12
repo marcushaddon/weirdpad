@@ -5,6 +5,7 @@ import os
 class WeirdPad(object):
 
     def __init__(self):
+        """ inits an instance of WeirdPad """
         self._in_dir = ''
         self._out_dir = ''
         self._file_name = ''
@@ -12,15 +13,18 @@ class WeirdPad(object):
         self._effects_applied = []
 
     def reset(self):
+        """ resets current pic """
         self._pic = None
         self._effects_applied = []
         self._file_name = ''
 
     @property
     def in_dir(self):
+        """ getter for _in_dir """
         return self._in_dir
 
     @in_dir.setter
+    """ setter for _in_dir """
     def in_dir(self, in_dir):
         """
         sets default input directory
@@ -29,6 +33,7 @@ class WeirdPad(object):
 
     @property
     def out_dir(self):
+        """ getter for _out_dir """
         return self._out_dir
 
     @out_dir.setter
@@ -78,11 +83,7 @@ class WeirdPad(object):
 
     def flatten_image(self, pic):
         """
-        takes image
-        [(1,2,3),(4,5,6),
-        (7,8,9),(10,11,12)]
-        and returns int_list
-        [1,2,3,4,5,6,7,8,9,10,11,12]
+        flattens image into list of ints
         """
         width = pic.size[0]
         height = pic.size[1]
@@ -98,11 +99,7 @@ class WeirdPad(object):
 
     def reconstruct_flattened_image(self, int_list, width, height):
         """
-        takes int_list
-        [1,2,3,4,5,6,7,8,9,10,11,12]
-        and returns image
-        [(1,2,3),(4,5,6),
-        (7,8,9),(10,11,12)]
+        constructs image of provided width and heigh from int list
         """
         image = Image.new('RGB', (width, height))
         reconstructed_output = []
