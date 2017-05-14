@@ -11,9 +11,9 @@ pad.in_dir = 'in/'
 pad.out_dir = 'out/'
 pad.load_pic('pic.jpg')
 pad.wordpad(200)
-pad.save(False)
+pad.save(False) # reset = Leaves the same image in place so we can apply more effects without losing progress
 pad.wordpad_by_color((100,50,25), 20)
-pad.save()
+pad.save() # saves image and resets
 ```
 
 Insert glitch everytime we find find channel value of 100
