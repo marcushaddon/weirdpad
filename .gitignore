@@ -6,3 +6,4 @@
 batch_processor.py
 *.egg-info/
 *.egg
+weirdpad.egg-info*
