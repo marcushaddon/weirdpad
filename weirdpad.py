@@ -24,7 +24,6 @@ class WeirdPad(object):
         return self._in_dir
 
     @in_dir.setter
-    """ setter for _in_dir """
     def in_dir(self, in_dir):
         """
         sets default input directory
