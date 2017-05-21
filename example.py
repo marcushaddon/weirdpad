@@ -1,4 +1,4 @@
-from WeirdPad import WeirdPad
+from weirdpad import WeirdPad
 
 pad = WeirdPad()
 pad.in_dir = 'in/'
