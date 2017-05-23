@@ -3,7 +3,7 @@ Python class meant to emulate "[wordpad effect](http://datamoshing.com/tag/wordp
 
 ## Installation
 1. Clone this repo
-2. `pip install requirments.txt`
+2. `pip install -r weirdpad/requirements.txt`
 ```python
 from weirdpad import WeirdPad
 pad = WeirdPad()
